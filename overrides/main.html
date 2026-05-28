@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block header %}
+  {% if not page.meta or not page.meta.hide_nav %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block tabs %}
+  {% if not page.meta or not page.meta.hide_nav %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block site_nav %}
+  {% if not page.meta or not page.meta.hide_nav %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page.meta and page.meta.hide_title %}
+    {{ page.content }}
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}

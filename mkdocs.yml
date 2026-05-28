@@ -1,4 +1,4 @@
-site_name: 游戏设计基础知识库
+site_name: 游戏设计知识库
 site_description: 《游戏设计基础（原书第3版）》结构化读书知识库
 site_url: https://jq911.github.io/game-design-fundamentals-kb/
 repo_url: https://github.com/jq911/game-design-fundamentals-kb
@@ -6,7 +6,12 @@ repo_name: jq911/game-design-fundamentals-kb
 
 theme:
   name: material
+  custom_dir: overrides
   language: zh
+  favicon: assets/icons/Pac-Man.ico
+  logo: assets/icons/logo.svg
+  icon:
+    repo: custom/github-invertocat
   features:
     - navigation.tabs
     - navigation.sections
@@ -17,14 +22,14 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: indigo
-      accent: deep orange
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
     - scheme: slate
-      primary: indigo
-      accent: deep orange
+      primary: deep orange
+      accent: orange
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
@@ -54,7 +59,7 @@ markdown_extensions:
 
 nav:
   - 首页: index.md
-  - 第 1 章 游戏和电子游戏:
+  - 游戏设计基础（原书第3版）:
       - 章节导览: 01-游戏和电子游戏/index.md
       - 1.1 游戏是什么: 01-游戏和电子游戏/01-01-游戏是什么.md
       - 1.2 传统游戏与电子游戏: 01-游戏和电子游戏/01-02-传统游戏与电子游戏.md

@@ -1,7 +1,19 @@
+---
+title: " "
+hide_title: true
+hide_nav: true
+---
+
 <section class="book-home">
-  <div class="book-home__eyebrow">Personal Reading Vault</div>
-  <h1>书籍笔记</h1>
-  <p class="book-home__lead">按书籍整理的在线知识库。每本书独立成册，进入后可按章节目录阅读笔记、摘要与概念卡片。</p>
+  <div class="book-home__brand">
+    <img src="assets/icons/logo.svg" alt="游戏设计知识库 Logo">
+    <span>游戏设计知识库</span>
+  </div>
+  <p class="book-home__lead">
+  按书籍整理的在线知识库。<br>
+  每本书独立成册，进入后可按章节目录阅读笔记、摘要与概念卡片。<br>
+  个人阅读笔记，无任何商业用途。
+  </p>
 
   <div class="book-grid">
     <a class="book-card" href="01-游戏和电子游戏/">

@@ -1,15 +1,59 @@
-.book-home {
-  min-height: 68vh;
-  padding: 2.5rem 0 1rem;
+.md-logo img {
+  filter: brightness(0) invert(1);
 }
 
-.book-home__eyebrow {
+.md-header .md-source__repository {
+  display: none;
+}
+
+.md-header .md-source {
+  width: auto;
+}
+
+body:has(.book-home) {
+  --md-accent-fg-color: var(--md-primary-fg-color);
+}
+
+body:has(.book-home) .md-header,
+body:has(.book-home) .md-tabs,
+body:has(.book-home) .md-sidebar,
+body:has(.book-home) .md-footer {
+  display: none !important;
+}
+
+body:has(.book-home) .md-main {
+  padding-top: 0 !important;
+}
+
+body:has(.book-home) .md-main__inner {
+  margin-top: 0 !important;
+}
+
+body:has(.book-home) .md-content {
+  max-width: none;
+}
+
+.book-home {
+  min-height: 100vh;
+  padding: 4rem 0 1rem;
+}
+
+.book-home__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
   color: var(--md-accent-fg-color);
-  font-size: 0.72rem;
+  font-size: 1.6rem;
   font-weight: 800;
   letter-spacing: 0.18em;
-  text-transform: uppercase;
   margin-bottom: 0.5rem;
+}
+
+.book-home__brand img {
+  width: 2rem;
+  height: 2rem;
+  filter: invert(32%) sepia(93%) saturate(1713%) hue-rotate(359deg) brightness(95%) contrast(96%);
+  opacity: 0.3;
 }
 
 .book-home h1 {
