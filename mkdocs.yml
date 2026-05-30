@@ -28,8 +28,8 @@ theme:
         icon: material/weather-night
         name: 切换到深色模式
     - scheme: slate
-      primary: deep orange
-      accent: orange
+      primary: black
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
@@ -42,6 +42,9 @@ plugins:
 
 extra_css:
   - stylesheets/home.css
+
+extra_javascript:
+  - javascripts/book-gate.js
 
 markdown_extensions:
   - admonition
@@ -60,11 +63,136 @@ markdown_extensions:
 nav:
   - 首页: index.md
   - 游戏设计基础（原书第3版）:
-      - 章节导览: 01-游戏和电子游戏/index.md
-      - 1.1 游戏是什么: 01-游戏和电子游戏/01-01-游戏是什么.md
-      - 1.2 传统游戏与电子游戏: 01-游戏和电子游戏/01-02-传统游戏与电子游戏.md
-      - 1.3 游戏的娱乐性: 01-游戏和电子游戏/01-03-游戏的娱乐性.md
-      - 1.4 严肃游戏: 01-游戏和电子游戏/01-04-严肃游戏.md
-      - 1.5 本章总结: 01-游戏和电子游戏/01-05-本章总结.md
-      - 1.6 设计练习——训练: 01-游戏和电子游戏/01-06-设计练习-训练.md
-      - 1.7 设计练习——习题: 01-游戏和电子游戏/01-07-设计练习-习题.md
+      - 总目录: game-design-fundamentals/toc.md
+      - 阅读入口: game-design-fundamentals/index.md
+      - 第 1 章 游戏和电子游戏:
+          - 章节导览: game-design-fundamentals/chapter-01/index.md
+          - 1.1 游戏是什么:
+              - 导览: game-design-fundamentals/chapter-01/01-01-what-is-a-game.md
+              - 1.1.1 玩具、智力谜题与游戏: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-01-toys-puzzles-games.md
+              - 1.1.2 游戏的定义: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-02-definition-of-game.md
+              - 1.1.3 游戏的必备组成要素: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-03-essential-elements.md
+              - 1.1.4 游戏定义的误区: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-04-definition-pitfalls.md
+              - 1.1.5 游戏的可玩性: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-05-gameplay.md
+              - 1.1.6 游戏的公平性: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-06-fairness.md
+              - 1.1.7 游戏中的对称与非对称: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-07-symmetry-asymmetry.md
+              - 1.1.8 竞争与合作: game-design-fundamentals/chapter-01/01-01-what-is-a-game/01-01-08-competition-cooperation.md
+          - 1.2 传统游戏与电子游戏:
+              - 导览: game-design-fundamentals/chapter-01/01-02-conventional-and-video-games.md
+              - 1.2.1 隐藏规则: game-design-fundamentals/chapter-01/01-02-conventional-and-video-games/01-02-01-hidden-rules.md
+              - 1.2.2 设置步调: game-design-fundamentals/chapter-01/01-02-conventional-and-video-games/01-02-02-pacing.md
+              - 1.2.3 所呈现的游戏世界: game-design-fundamentals/chapter-01/01-02-conventional-and-video-games/01-02-03-presented-game-world.md
+              - 1.2.4 创建人工智能: game-design-fundamentals/chapter-01/01-02-conventional-and-video-games/01-02-04-artificial-intelligence.md
+          - 1.3 游戏的娱乐性:
+              - 导览: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun.md
+              - 1.3.1 游戏的可玩性: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-01-gameplay.md
+              - 1.3.2 游戏美学: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-02-game-aesthetics.md
+              - 1.3.3 讲述故事: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-03-storytelling.md
+              - 1.3.4 风险和回报: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-04-risk-and-reward.md
+              - 1.3.5 新奇性: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-05-novelty.md
+              - 1.3.6 进展: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-06-progression.md
+              - 1.3.7 探索: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-07-exploration.md
+              - 1.3.8 学习: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-08-learning.md
+              - 1.3.9 创造型和自我表现型玩法: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-09-creative-self-expression.md
+              - 1.3.10 角色扮演: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-10-role-playing.md
+              - 1.3.11 社会化: game-design-fundamentals/chapter-01/01-03-what-makes-a-game-fun/01-03-11-socializing.md
+          - 1.4 严肃游戏:
+              - 导览: game-design-fundamentals/chapter-01/01-04-serious-games.md
+              - 1.4.1 教育和培训: game-design-fundamentals/chapter-01/01-04-serious-games/01-04-01-education-training.md
+              - 1.4.2 模拟与教研: game-design-fundamentals/chapter-01/01-04-serious-games/01-04-02-simulation-research.md
+              - 1.4.3 有说服力的游戏: game-design-fundamentals/chapter-01/01-04-serious-games/01-04-03-persuasive-games.md
+              - 1.4.4 有关健康和成长的游戏: game-design-fundamentals/chapter-01/01-04-serious-games/01-04-04-health-growth.md
+          - 1.5 本章总结: game-design-fundamentals/chapter-01/01-05-summary.md
+          - 1.6 设计练习：训练:
+              - 导览: game-design-fundamentals/chapter-01/01-06-exercises-training.md
+              - 1.6.1 创建一个竞技游戏: game-design-fundamentals/chapter-01/01-06-exercises-training/01-06-01-competitive-game.md
+              - 1.6.2 设计两名玩家的协作性游戏: game-design-fundamentals/chapter-01/01-06-exercises-training/01-06-02-cooperative-chesslike-game.md
+              - 1.6.3 设计不限人数且唯一获胜者的竞技游戏: game-design-fundamentals/chapter-01/01-06-exercises-training/01-06-03-single-winner-creative-game.md
+              - 1.6.4 描述传统游戏的设置要素: game-design-fundamentals/chapter-01/01-06-exercises-training/01-06-04-setup-elements.md
+              - 1.6.5 列出不同多人模式的电子游戏: game-design-fundamentals/chapter-01/01-06-exercises-training/01-06-05-video-game-modes.md
+          - 1.7 设计练习：习题:
+              - 导览: game-design-fundamentals/chapter-01/01-07-exercises-questions.md
+              - 1.7.1 游戏设计人的职业角色: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-01-designer-role.md
+              - 1.7.2 重新审视游戏定义: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-02-game-definition.md
+              - 1.7.3 用挑战和动作定义游戏设计: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-03-challenge-action-definition.md
+              - 1.7.4 公平观念与体育训练: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-04-fairness-sports.md
+              - 1.7.5 计算机游戏的其他元素: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-05-other-computer-game-elements.md
+              - 1.7.6 电子游戏的其他娱乐方式: game-design-fundamentals/chapter-01/01-07-exercises-questions/01-07-06-other-fun-sources.md
+      - 第 2 章 游戏的设计与开发:
+          - 章节导览: game-design-fundamentals/chapter-02/index.md
+          - 2.1 走近游戏设计:
+              - 导览: game-design-fundamentals/chapter-02/02-01-approaching-game-design.md
+              - 2.1.1 游戏设计是艺术、工程，还是工艺: game-design-fundamentals/chapter-02/02-01-approaching-game-design/02-01-01-art-engineering-craft.md
+              - 2.1.2 以玩家为中心的方法: game-design-fundamentals/chapter-02/02-01-approaching-game-design/02-01-02-player-centric-design.md
+              - 2.1.3 影响游戏设计的其他动机: game-design-fundamentals/chapter-02/02-01-approaching-game-design/02-01-03-other-motivations.md
+              - 2.1.4 娱乐玩家的游戏特点: game-design-fundamentals/chapter-02/02-01-approaching-game-design/02-01-04-entertaining-player-features.md
+          - 2.2 电子游戏的关键组成:
+              - 导览: game-design-fundamentals/chapter-02/02-02-key-components.md
+              - 2.2.1 核心机制: game-design-fundamentals/chapter-02/02-02-key-components/02-02-01-core-mechanics.md
+              - 2.2.2 用户界面: game-design-fundamentals/chapter-02/02-02-key-components/02-02-02-user-interface.md
+          - 2.3 电子游戏的结构:
+              - 导览: game-design-fundamentals/chapter-02/02-03-video-game-structure.md
+              - 2.3.1 游戏可玩性模式: game-design-fundamentals/chapter-02/02-03-video-game-structure/02-03-01-gameplay-modes.md
+              - 2.3.2 shell菜单和屏幕: game-design-fundamentals/chapter-02/02-03-video-game-structure/02-03-02-shell-menus-screens.md
+              - 2.3.3 构成结构: game-design-fundamentals/chapter-02/02-03-video-game-structure/02-03-03-constructing-structure.md
+          - 2.4 游戏开发过程中的各个阶段:
+              - 导览: game-design-fundamentals/chapter-02/02-04-development-stages.md
+              - 2.4.1 概念设计阶段: game-design-fundamentals/chapter-02/02-04-development-stages/02-04-01-concept-stage.md
+              - 2.4.2 细化阶段: game-design-fundamentals/chapter-02/02-04-development-stages/02-04-02-elaboration-stage.md
+              - 2.4.3 调整阶段: game-design-fundamentals/chapter-02/02-04-development-stages/02-04-03-tuning-stage.md
+          - 2.5 游戏设计团队: game-design-fundamentals/chapter-02/02-05-game-design-team.md
+          - 2.6 游戏设计文档:
+              - 导览: game-design-fundamentals/chapter-02/02-06-design-documents.md
+              - 2.6.1 我们为什么需要文档: game-design-fundamentals/chapter-02/02-06-design-documents/02-06-01-why-documents.md
+              - 2.6.2 设计文档类型: game-design-fundamentals/chapter-02/02-06-design-documents/02-06-02-document-types.md
+          - 2.7 剖析游戏设计者:
+              - 导览: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer.md
+              - 2.7.1 想象力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-01-imagination.md
+              - 2.7.2 技术知识: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-02-technical-knowledge.md
+              - 2.7.3 分析能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-03-analytical-ability.md
+              - 2.7.4 数学能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-04-mathematical-ability.md
+              - 2.7.5 美学能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-05-aesthetic-ability.md
+              - 2.7.6 常识和调查能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-06-general-knowledge-research.md
+              - 2.7.7 写作能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-07-writing-ability.md
+              - 2.7.8 绘画能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-08-drawing-ability.md
+              - 2.7.9 妥协能力: game-design-fundamentals/chapter-02/02-07-anatomy-of-game-designer/02-07-09-compromise-ability.md
+          - 2.8 本章总结: game-design-fundamentals/chapter-02/02-08-summary.md
+          - 2.9 设计练习：训练: game-design-fundamentals/chapter-02/02-09-exercises-training.md
+          - 2.10 设计练习：习题: game-design-fundamentals/chapter-02/02-10-exercises-questions.md
+      - 第 3 章 游戏类别:
+          - 章节导览: game-design-fundamentals/chapter-03/index.md
+          - 3.1 什么是游戏类别: game-design-fundamentals/chapter-03/03-01-what-is-genre.md
+          - 3.2 经典的游戏类别:
+              - 导览: game-design-fundamentals/chapter-03/03-02-classic-genres.md
+              - 3.2.1 射击游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-01-shooters.md
+              - 3.2.2 动作和街机游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-02-action-arcade.md
+              - 3.2.3 策略游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-03-strategy.md
+              - 3.2.4 角色扮演游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-04-role-playing.md
+              - 3.2.5 体育游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-05-sports.md
+              - 3.2.6 交通工具模拟游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-06-vehicle-simulations.md
+              - 3.2.7 建设和模拟类游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-07-construction-management.md
+              - 3.2.8 冒险游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-08-adventure.md
+              - 3.2.9 解谜游戏: game-design-fundamentals/chapter-03/03-02-classic-genres/03-02-09-puzzle.md
+          - 3.3 本章总结: game-design-fundamentals/chapter-03/03-03-summary.md
+          - 3.4 设计练习：训练: game-design-fundamentals/chapter-03/03-04-exercises-training.md
+          - 3.5 设计练习：习题: game-design-fundamentals/chapter-03/03-05-exercises-questions.md
+      - 第 4 章 了解你的玩家:
+          - 章节导览: game-design-fundamentals/chapter-04/index.md
+          - 4.1 VandenBerghe 的 5 种游戏领域:
+              - 导览: game-design-fundamentals/chapter-04/04-01-vandenberghe-five-domains.md
+              - 4.1.1 五因素模型: game-design-fundamentals/chapter-04/04-01-vandenberghe-five-domains/04-01-01-five-factor-model.md
+              - 4.1.2 5种游戏领域: game-design-fundamentals/chapter-04/04-01-vandenberghe-five-domains/04-01-02-five-game-domains.md
+              - 4.1.3 另一个领域：讲故事的态度: game-design-fundamentals/chapter-04/04-01-vandenberghe-five-domains/04-01-03-story-attitude.md
+          - 4.2 人口统计分类:
+              - 导览: game-design-fundamentals/chapter-04/04-02-demographics.md
+              - 4.2.1 男人和女人: game-design-fundamentals/chapter-04/04-02-demographics/04-02-01-men-and-women.md
+              - 4.2.2 男孩和女孩: game-design-fundamentals/chapter-04/04-02-demographics/04-02-02-boys-and-girls.md
+              - 4.2.3 女孩的游戏: game-design-fundamentals/chapter-04/04-02-demographics/04-02-03-games-for-girls.md
+          - 4.3 玩家贡献: game-design-fundamentals/chapter-04/04-03-player-dedication.md
+          - 4.4 二元性思维的危害:
+              - 导览: game-design-fundamentals/chapter-04/04-04-binary-thinking.md
+              - 4.4.1 从统计学角度研究玩家群体: game-design-fundamentals/chapter-04/04-04-binary-thinking/04-04-01-statistical-player-groups.md
+              - 4.4.2 致力于包容性，而不是普遍性: game-design-fundamentals/chapter-04/04-04-binary-thinking/04-04-02-inclusiveness-not-universality.md
+          - 4.5 本章总结: game-design-fundamentals/chapter-04/04-05-summary.md
+          - 4.6 设计练习：训练: game-design-fundamentals/chapter-04/04-06-exercises-training.md
+          - 4.7 设计练习：习题: game-design-fundamentals/chapter-04/04-07-exercises-questions.md
