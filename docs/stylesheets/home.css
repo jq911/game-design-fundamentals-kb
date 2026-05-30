@@ -31,13 +31,6 @@ body:has(.book-home) {
   --md-accent-fg-color: var(--md-primary-fg-color);
 }
 
-body:has(.book-home) .md-header,
-body:has(.book-home) .md-tabs,
-body:has(.book-home) .md-sidebar,
-body:has(.book-home) .md-footer {
-  display: none !important;
-}
-
 body:has(.book-home) .md-main {
   padding-top: 0 !important;
 }
