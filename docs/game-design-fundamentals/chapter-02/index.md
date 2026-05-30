@@ -5,7 +5,7 @@ title: 第 2 章 游戏的设计与开发
 <!-- chapter-pager:start -->
 
 <div class="chapter-pager chapter-pager--top">
-<span class="chapter-pager__button chapter-pager__button--prev chapter-pager__button--disabled"><span class="chapter-pager__label">上一页</span></span>
+<a class="chapter-pager__button chapter-pager__button--prev" href="../chapter-01/01-07-exercises-questions/01-07-06-other-fun-sources"><span class="chapter-pager__label">上一页</span></a>
 <a class="chapter-pager__button chapter-pager__button--next" href="02-01-approaching-game-design"><span class="chapter-pager__label">下一页</span></a>
 </div>
 
@@ -28,7 +28,7 @@ title: 第 2 章 游戏的设计与开发
 <!-- chapter-pager:start -->
 
 <div class="chapter-pager chapter-pager--bottom">
-<span class="chapter-pager__button chapter-pager__button--prev chapter-pager__button--disabled"><span class="chapter-pager__label">上一页</span></span>
+<a class="chapter-pager__button chapter-pager__button--prev" href="../chapter-01/01-07-exercises-questions/01-07-06-other-fun-sources"><span class="chapter-pager__label">上一页</span></a>
 <a class="chapter-pager__button chapter-pager__button--next" href="02-01-approaching-game-design"><span class="chapter-pager__label">下一页</span></a>
 </div>
 
