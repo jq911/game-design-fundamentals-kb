@@ -33,7 +33,7 @@ title: 8.3.2 时间维度
 《工人物语：帝国的崛起》是一款复杂的经济模拟游戏，在这里面一棵树从树苗长到正常尺寸，与铸铁车间熔化四五条铁块的时间差不多。这是采用反常时间的一个很好的例子：在游戏的不同部分好像有不同的时间速度。《工人物语》系列游戏的开发商Blue Byte，调整每个任务完成时间的长短，以保证游戏整体运行顺利。所以，《工人物语》以现实主义为代价成就了一个平衡性很好的游戏。然而这并不影响游戏的科幻性，因为这个游戏并没有在游戏世界里给玩家真正提供一个计时器，也就没有办法把游戏时间和现实时间做比较了。所以，这个游戏世界实际上没有明显的时间度量（如图8-7所示）
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-7-settlers-irregular-time.png" alt="图8-7 《工人物语：帝国的崛起》里活动用的时间不规则，但用户界面并没有计时器" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-7-settlers-irregular-time.png" alt="图8-7 《工人物语：帝国的崛起》里活动用的时间不规则，但用户界面并没有计时器" loading="lazy">
   <figcaption>图8-7　《工人物语：帝国的崛起》里活动用的时间不规则，但用户界面并没有计时器</figcaption>
 </figure>
 

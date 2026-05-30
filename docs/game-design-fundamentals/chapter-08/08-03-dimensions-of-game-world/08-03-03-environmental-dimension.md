@@ -25,7 +25,7 @@ title: 8.3.3 环境维度
 我们说的游戏的文化背景，指的是人类学的概念：信仰、态度和游戏世界里人们的价值观，还有他们的政治和宗教习俗、社会组织等——简而言之，就是人们的生活方式。这些特征在游戏里的制作项目上都有体现：服装、家具、建筑、风景和游戏世界中其他人工制造的物体。文化不仅影响着什么该出现，什么不该出现（背景为古埃及的游戏中显然不能出现火器），而且会影响每个东西的外观——包括用户界面。《埃及艳后：尼罗河的女王》就是一个文化与用户界面协调得很好的例子，如图 8-8 所示。
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-8-cleopatra-cultural-background.png" alt="图8-8 《埃及艳后：尼罗河的女王》中的文化背景影响着屏幕上的每个东西" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-8-cleopatra-cultural-background.png" alt="图8-8 《埃及艳后：尼罗河的女王》中的文化背景影响着屏幕上的每个东西" loading="lazy">
   <figcaption>图8-8　《埃及艳后：尼罗河的女王》中的文化背景影响着屏幕上的每个东西</figcaption>
 </figure>
 
@@ -38,7 +38,7 @@ title: 8.3.3 环境维度
 游戏世界的物理方面——它所处的物理环境和内容——决定了游戏实际上是什么样子的。这是游戏设计的一部分，对于一个艺术家或从事与艺术很相近的工作是最有帮助的。在设计的初始阶段，你不需要把游戏世界里出现的每一个东西都画出来（尽管迟早会有人要画的）。目前重要的是创造概念草图：用铅笔或钢笔画出游戏里的关键视觉元素。这取决于你的游戏是什么类型的，可以包括建筑、交通工具、服装、武器、家具、饰品、艺术品、珠宝、宗教或魔力物品、商标或标志等。《冥界狂想曲》（如图8-9所示）
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-9-grim-fandango-style.png" alt="图8-9 《冥界狂想曲》把阿兹特克、装饰派艺术和墨西哥亡灵节的主题结合在了一起" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-9-grim-fandango-style.png" alt="图8-9 《冥界狂想曲》把阿兹特克、装饰派艺术和墨西哥亡灵节的主题结合在了一起" loading="lazy">
   <figcaption>图8-9　《冥界狂想曲》把阿兹特克、装饰派艺术和墨西哥亡灵节的主题结合在了一起</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ title: 8.3.3 环境维度
 
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-10-spec-ops-sandstorm-dubai.png" alt="图8-10 《特种战线》中因沙尘暴而被摧毁的城市" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-10-spec-ops-sandstorm-dubai.png" alt="图8-10 《特种战线》中因沙尘暴而被摧毁的城市" loading="lazy">
   <figcaption>图8-10　《特种战线》中因沙尘暴而被摧毁的城市</figcaption>
 </figure>
 
@@ -60,7 +60,7 @@ title: 8.3.3 环境维度
 在描述你的游戏世界看起来是什么样时，你就给游戏定义了一个视觉风格，这也会影响许多其他的方面：角色设计、用户界面、游戏指南，甚至还有包装盒和广告设计。在这里你其实有两个任务：定义游戏世界里面物品的风格（即内在风格），还有定义描述游戏世界中艺术品的风格。两者是不一样的。例如，你可以描绘一个世界，里面的建筑风格是受佛教寺庙的启发，但是却把它画得像一个灰色电影。或者你可以有一个半木建筑结构的中世纪小镇，但是把它描述成有一点模糊的印象派风格。你必须选择内容和展示内容的方式。这两个决定在很大程度上都会影响玩家的游戏体验，共同创造一个明确的氛围。一般来说，描述的风格往往会把它的气氛附加在被描述的物体上。例如，一个希腊寺庙建筑可能看起来很高雅，但是如果它的绘画风格像米老鼠卡通里面的，那人们就会预测有古怪或者荒诞的事儿要在这儿发生。绘画风格把自己的氛围加到了寺庙上，不管是多壮丽的一个庙。例如，《火影忍者疾风传：终极忍者风暴》（如图8-11所示）
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-11-naruto-visual-style.png" alt="图8-11 《火影》用一本漫画书的风格装饰了游戏中的现代日本建筑以及其他地方" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-11-naruto-visual-style.png" alt="图8-11 《火影》用一本漫画书的风格装饰了游戏中的现代日本建筑以及其他地方" loading="lazy">
   <figcaption>图8-11　《火影》用一本漫画书的风格装饰了游戏中的现代日本建筑以及其他地方</figcaption>
 </figure>
 
@@ -73,7 +73,7 @@ title: 8.3.3 环境维度
 游戏经常会借鉴其他游戏的背景，或者从电影、书本、电视上借鉴常见的背景。大量的游戏是设在科幻或幻想世界里的，尤其是类似于中世纪的剑术或巫术的想象，它们受到了J. R. R. Tolkien和《龙与地下城》的启发。这种游戏在年轻人之间很流行，年轻人曾占有电子游戏的主要市场——实际上，几乎是唯一的市场。但是现在玩游戏的人多了，他们期待尝试新的游戏。你应该超越游戏中那些古老的产品。《州际76》受20世纪70年代的电视剧所启发。游戏中包含那个年代的车、服装、音乐、语言，它们都是很有特色的，并且能唤起对特定文化的回忆。《州际76》有很高的游戏可玩性，真正使它区别于竞争者的是：它看起来、听起来都跟市场上的其他东西完全不一样。如果你正准备设计科幻或幻想游戏，尽量把你的环境做得有特色和与众不同一些。现在，美国和俄罗斯制造的航天器看起来非常实用，随着航天器越来越普及，特别是我们开始见到私人宇宙飞船时，我们也会期待它们展示风格上的不同。这是一个有着无限创新自由的领域。对于幻想游戏也是一样。丢开那些既单调又过时的精灵、矮人、巫师和龙（如图8-12所示）
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-12-medieval-fantasy-example.png" alt="图8-12 另一款仿中世纪的游戏：《幻魔霸主》" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-12-medieval-fantasy-example.png" alt="图8-12 另一款仿中世纪的游戏：《幻魔霸主》" loading="lazy">
   <figcaption>图8-12　另一款仿中世纪的游戏：《幻魔霸主》</figcaption>
 </figure>
 

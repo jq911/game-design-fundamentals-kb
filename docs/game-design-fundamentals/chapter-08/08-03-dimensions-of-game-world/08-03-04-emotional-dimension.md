@@ -29,7 +29,7 @@ title: 8.3.4 感情维度
 没有防备。不要把他武装得太好，如果你随身带着一个火箭发射器，世界就没有那么恐怖了。“幸存恐惧”（survival horror）是动作游戏的一个常见子类，就如在《寂静岭》和《生化危机》系列里见到的，用的都是这种方法。另一种情感是角色和玩家之间的相互认同。喜爱、悲痛、惭愧、嫉妒、愤怒都是由这样的相互作用产生的情感（其中一个著名的例子如图8-13所示）。
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-13-final-fantasy-aerith-death.png" alt="图8-13 《最终幻想 VII》中的艾瑞丝之死" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-13-final-fantasy-aerith-death.png" alt="图8-13 《最终幻想 VII》中的艾瑞丝之死" loading="lazy">
   <figcaption>图8-13　《最终幻想 VII》中的艾瑞丝之死</figcaption>
 </figure>
 

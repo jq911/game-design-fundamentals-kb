@@ -29,7 +29,7 @@ title: 8.3.5 道德维度
 《美国陆军》是一款基于团队的多玩家第一人称的射击游戏（first-person shooter，FPS），由美国军队免费发行，目的是作为一个教育和招募的工具，告诉玩家真正的士兵是怎样打仗的（如图8-14所示）
 
 <figure class="book-figure">
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-14-americas-army-moral-perspective.png" alt="图8-14 我们的部队捕获了一个自认为是我们其中一员的家伙" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-08/figure-8-14-americas-army-moral-perspective.png" alt="图8-14 我们的部队捕获了一个自认为是我们其中一员的家伙" loading="lazy">
   <figcaption>图8-14　我们的部队捕获了一个自认为是我们其中一员的家伙</figcaption>
 </figure>
 
