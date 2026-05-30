@@ -1,0 +1,62 @@
+{
+  "image_dir": "C:\\Users\\jiaqiang03\\lobsterai\\project\\game-design-fundamentals-kb\\docs\\assets\\book-images\\game-design-fundamentals\\chapter-04",
+  "images": [
+    {
+      "file": "docs\\assets\\book-images\\game-design-fundamentals\\chapter-04\\figure-4-1-lara-croft-tomb-raider.png",
+      "exists": true,
+      "bytes": 130184,
+      "sha256_12": "c9f1024266fb",
+      "format": "PNG",
+      "mode": "RGB",
+      "size": [
+        445,
+        375
+      ],
+      "load_ok": true
+    },
+    {
+      "file": "docs\\assets\\book-images\\game-design-fundamentals\\chapter-04\\figure-4-2-heather-silent-hill-3.png",
+      "exists": true,
+      "bytes": 128449,
+      "sha256_12": "47e034b304a9",
+      "format": "PNG",
+      "mode": "RGB",
+      "size": [
+        450,
+        375
+      ],
+      "load_ok": true
+    },
+    {
+      "file": "docs\\assets\\book-images\\game-design-fundamentals\\chapter-04\\figure-4-3-interest-rating-by-gender.png",
+      "exists": true,
+      "bytes": 111389,
+      "sha256_12": "1ec1b898e28c",
+      "format": "PNG",
+      "mode": "RGB",
+      "size": [
+        545,
+        530
+      ],
+      "load_ok": true
+    }
+  ],
+  "markdown_refs": [
+    {
+      "markdown": "docs\\game-design-fundamentals\\chapter-04\\04-02-demographics\\04-02-01-men-and-women.md",
+      "src": "../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-1-lara-croft-tomb-raider.png",
+      "alt": "图4-1 《古墓丽影》中的女主角劳拉"
+    },
+    {
+      "markdown": "docs\\game-design-fundamentals\\chapter-04\\04-02-demographics\\04-02-01-men-and-women.md",
+      "src": "../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-2-heather-silent-hill-3.png",
+      "alt": "图4-2 《寂静岭3》中的女主海瑟"
+    },
+    {
+      "markdown": "docs\\game-design-fundamentals\\chapter-04\\04-04-binary-thinking\\04-04-01-statistical-player-groups.md",
+      "src": "../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-3-interest-rating-by-gender.png",
+      "alt": "图4-3 特定游戏的兴趣度等级"
+    }
+  ],
+  "issues": []
+}

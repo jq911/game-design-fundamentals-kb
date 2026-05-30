@@ -30,7 +30,7 @@ title: 4.4.1 从统计学角度研究玩家群体
 是5.5，而女性玩家的平均兴趣等级为4.5。
 
 <figure markdown>
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-3-interest-rating-by-gender.png" alt="图4-3 特定游戏的兴趣度等级" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-3-interest-rating-by-gender.png" alt="图4-3 特定游戏的兴趣度等级" loading="lazy">
   <figcaption>图4-3 特定游戏的兴趣度等级：0～10</figcaption>
 </figure>
 

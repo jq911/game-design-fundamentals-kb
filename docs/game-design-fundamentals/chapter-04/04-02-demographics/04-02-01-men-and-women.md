@@ -208,7 +208,7 @@ Facebook上的游戏，鼓励玩家邀请他们的朋友一起参与，共享资
 特性的角色感到不适。
 
 <figure markdown>
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-1-lara-croft-tomb-raider.png" alt="图4-1 《古墓丽影》中的女主角劳拉" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-1-lara-croft-tomb-raider.png" alt="图4-1 《古墓丽影》中的女主角劳拉" loading="lazy">
   <figcaption>图4-1 《古墓丽影》中的女主角劳拉</figcaption>
 </figure>
 
@@ -251,7 +251,7 @@ AAA 游戏而又对游戏中千篇一律的男性主人公感到厌倦的女性�
 器等（任何可以个性化的元素）。角色扮演游戏，
 
 <figure markdown>
-  <img src="../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-2-heather-silent-hill-3.png" alt="图4-2 《寂静岭3》中的女主海瑟" loading="lazy">
+  <img src="../../../../assets/book-images/game-design-fundamentals/chapter-04/figure-4-2-heather-silent-hill-3.png" alt="图4-2 《寂静岭3》中的女主海瑟" loading="lazy">
   <figcaption>图4-2 《寂静岭3》中的女主海瑟，看起来就像一位真实的女性</figcaption>
 </figure>
 
