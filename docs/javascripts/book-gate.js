@@ -14,11 +14,14 @@
     return [...new Uint8Array(buffer)].map((b) => b.toString(16).padStart(2, '0')).join('');
   }
 
-  function unlock() {
+  function unlock(options = {}) {
     document.documentElement.classList.remove('book-locked');
     document.documentElement.classList.add('book-unlocked');
     const gate = document.querySelector('.book-gate');
     if (gate) gate.remove();
+    if (options.reload) {
+      window.location.reload();
+    }
   }
 
   function mountGate() {
@@ -49,7 +52,7 @@
       if (!value) return;
       if (await sha256(value) === passwordHash) {
         sessionStorage.setItem(storageKey, '1');
-        unlock();
+        unlock({ reload: true });
       } else {
         error.textContent = '密码不正确，请重试。';
         input.select();
