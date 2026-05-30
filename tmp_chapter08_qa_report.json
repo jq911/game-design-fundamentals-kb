@@ -1,0 +1,49 @@
+{
+  "issues": [
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-02-time-dimension.md",
+      "type": "broken-tip-heading",
+      "text": "#### 提示："
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "inline-figure-prefix",
+      "text": "如<figure"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "inline-figure-suffix",
+      "text": "</figure>所示"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "broken-tip-heading",
+      "text": "#### 提示："
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "old-stray",
+      "text": "十凡堂甘美堂"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "effort-typo",
+      "text": "费很天劲"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "content-dash-typo",
+      "text": "物理环境和内容一决定了"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "wood-typo",
+      "text": "半未建筑结构"
+    },
+    {
+      "file": "08-03-dimensions-of-game-world\\08-03-03-environmental-dimension.md",
+      "type": "cartoon-typo",
+      "text": "免八哥卡通"
+    }
+  ]
+}

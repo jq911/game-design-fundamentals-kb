@@ -256,3 +256,18 @@ nav:
           - 7.3 本章总结: game-design-fundamentals/chapter-07/07-03-summary.md
           - 7.4 设计练习：训练: game-design-fundamentals/chapter-07/07-04-exercises-training.md
           - 7.5 设计练习：习题: game-design-fundamentals/chapter-07/07-05-exercises-questions.md
+      - 第 8 章 游戏世界:
+          - 章节导览: game-design-fundamentals/chapter-08/index.md
+          - 8.1 什么是游戏世界: game-design-fundamentals/chapter-08/08-01-what-is-game-world.md
+          - 8.2 游戏世界的目的: game-design-fundamentals/chapter-08/08-02-purpose-of-game-world.md
+          - 8.3 游戏世界的维度:
+              - 导览: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world.md
+              - 8.3.1 物理维度: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world/08-03-01-physical-dimension.md
+              - 8.3.2 时间维度: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world/08-03-02-time-dimension.md
+              - 8.3.3 环境维度: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world/08-03-03-environmental-dimension.md
+              - 8.3.4 感情维度: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world/08-03-04-emotional-dimension.md
+              - 8.3.5 道德维度: game-design-fundamentals/chapter-08/08-03-dimensions-of-game-world/08-03-05-moral-dimension.md
+          - 8.4 现实主义: game-design-fundamentals/chapter-08/08-04-realism.md
+          - 8.5 本章总结: game-design-fundamentals/chapter-08/08-05-summary.md
+          - 8.6 设计练习：训练: game-design-fundamentals/chapter-08/08-06-exercises-training.md
+          - 8.7 设计练习：习题: game-design-fundamentals/chapter-08/08-07-exercises-questions.md
