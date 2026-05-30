@@ -16,7 +16,7 @@ hide_nav: true
   </p>
 
   <div class="book-grid">
-    <a class="book-card" href="01-游戏和电子游戏/">
+    <a class="book-card" href="game-design-fundamentals/">
       <img class="book-card__cover" src="assets/covers/game-design-fundamentals.jpg" alt="《游戏设计基础（原书第3版）》封面">
       <div class="book-card__meta">
         <h2 class="book-card__title">游戏设计基础（原书第3版）</h2>
