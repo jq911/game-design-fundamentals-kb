@@ -9,12 +9,12 @@ OUT.mkdir(parents=True, exist_ok=True)
 # Crops from 2.5x rendered scanned pages. Coordinates are (left, top, right, bottom).
 crops = [
     ("pdf_139.png", "figure-8-1-prince-of-persia-classic-2d.png", (690, 885, 1165, 1095)),
-    ("pdf_140.png", "figure-8-2-starcraft-terrain.png", (80, 435, 525, 670)),
-    ("pdf_140.png", "figure-8-3-need-for-speed-most-wanted-3d.png", (580, 430, 1095, 675)),
+    ("pdf_140.png", "figure-8-2-starcraft-terrain.png", (70, 410, 535, 720)),
+    ("pdf_140.png", "figure-8-3-need-for-speed-most-wanted-3d.png", (565, 405, 1110, 735)),
     ("pdf_140.png", "figure-8-4-legacy-of-kain-material-spectral.png", (710, 805, 1138, 1325)),
-    ("pdf_142.png", "figure-8-5-age-of-empires-scale.png", (580, 185, 1125, 455)),
-    ("pdf_143.png", "figure-8-6-spore-sphere-world.png", (245, 530, 970, 805)),
-    ("pdf_145.png", "figure-8-7-settlers-irregular-time.png", (250, 230, 940, 505)),
+    ("pdf_142.png", "figure-8-5-age-of-empires-scale.png", (585, 190, 1125, 510)),
+    ("pdf_143.png", "figure-8-6-spore-sphere-world.png", (245, 480, 970, 875)),
+    ("pdf_145.png", "figure-8-7-settlers-irregular-time.png", (210, 185, 940, 590)),
     ("pdf_146.png", "figure-8-8-cleopatra-cultural-background.png", (245, 890, 920, 1305)),
     ("pdf_147.png", "figure-8-9-grim-fandango-style.png", (300, 775, 890, 1210)),
     ("pdf_148.png", "figure-8-10-spec-ops-sandstorm-dubai.png", (245, 825, 865, 1125)),
