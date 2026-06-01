@@ -13,10 +13,10 @@ crops = [
     ("pdf_184.png", "figure-10-3-mongolian-rider-concept-art.png", (55, 115, 430, 520)),
     ("pdf_184.png", "figure-10-4-edgar-model-sheet.png", (450, 125, 1115, 535)),
     ("pdf_186.png", "figure-10-5-power-golf-character-development.png", (330, 515, 940, 765)),
-    ("pdf_189.png", "figure-10-6-zero-dimensional-character.png", (675, 875, 1045, 1035)),
-    ("pdf_189.png", "figure-10-7-one-dimensional-character.png", (360, 1195, 1110, 1318)),
-    ("pdf_190.png", "figure-10-8-two-dimensional-character.png", (760, 560, 1085, 800)),
-    ("pdf_190.png", "figure-10-9-three-dimensional-character.png", (250, 850, 720, 1085)),
+    ("pdf_189.png", "figure-10-6-zero-dimensional-character.png", (760, 600, 1115, 735)),
+    ("pdf_189.png", "figure-10-7-one-dimensional-character.png", (235, 880, 1035, 1000)),
+    ("pdf_189.png", "figure-10-8-two-dimensional-character.png", (230, 1325, 1030, 1455)),
+    ("pdf_190.png", "figure-10-9-three-dimensional-character.png", (722, 300, 1110, 665)),
 ]
 
 for src_name, out_name, box in crops:
