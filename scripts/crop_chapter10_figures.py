@@ -16,7 +16,7 @@ crops = [
     ("pdf_189.png", "figure-10-6-zero-dimensional-character.png", (760, 600, 1115, 735)),
     ("pdf_189.png", "figure-10-7-one-dimensional-character.png", (235, 880, 1035, 1000)),
     ("pdf_189.png", "figure-10-8-two-dimensional-character.png", (230, 1325, 1030, 1455)),
-    ("pdf_190.png", "figure-10-9-three-dimensional-character.png", (720, 345, 1115, 670)),
+    ("pdf_190.png", "figure-10-9-three-dimensional-character.png", (665, 315, 1115, 675)),
 ]
 
 for src_name, out_name, box in crops:
