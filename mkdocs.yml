@@ -280,3 +280,13 @@ nav:
           - 9.5 本章总结: game-design-fundamentals/chapter-09/09-05-summary.md
           - 9.6 设计练习：训练: game-design-fundamentals/chapter-09/09-06-exercises-training.md
           - 9.7 设计练习：习题: game-design-fundamentals/chapter-09/09-07-exercises-questions.md
+      - 第 10 章 角色开发:
+          - 章节导览: game-design-fundamentals/chapter-10/index.md
+          - 10.1 角色设计的目标: game-design-fundamentals/chapter-10/10-01-character-design-goals.md
+          - 10.2 玩家和任务模型之间的关系: game-design-fundamentals/chapter-10/10-02-player-task-model.md
+          - 10.3 视觉外表: game-design-fundamentals/chapter-10/10-03-visual-appearance.md
+          - 10.4 创作角色的深度: game-design-fundamentals/chapter-10/10-04-character-depth.md
+          - 10.5 音频设计: game-design-fundamentals/chapter-10/10-05-audio-design.md
+          - 10.6 本章总结: game-design-fundamentals/chapter-10/10-06-summary.md
+          - 10.7 设计练习：训练: game-design-fundamentals/chapter-10/10-07-exercises-training.md
+          - 10.8 设计练习：习题: game-design-fundamentals/chapter-10/10-08-exercises-questions.md
