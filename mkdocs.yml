@@ -290,3 +290,19 @@ nav:
           - 10.6 本章总结: game-design-fundamentals/chapter-10/10-06-summary.md
           - 10.7 设计练习：训练: game-design-fundamentals/chapter-10/10-07-exercises-training.md
           - 10.8 设计练习：习题: game-design-fundamentals/chapter-10/10-08-exercises-questions.md
+      - 第 11 章 故事讲述和叙事:
+          - 章节导览: game-design-fundamentals/chapter-11/index.md
+          - 11.1 为什么把故事放到游戏中: game-design-fundamentals/chapter-11/11-01-why-put-stories-in-games.md
+          - 11.2 关键概念: game-design-fundamentals/chapter-11/11-02-key-concepts.md
+          - 11.3 故事讲述引擎: game-design-fundamentals/chapter-11/11-03-storytelling-engine.md
+          - 11.4 线性故事: game-design-fundamentals/chapter-11/11-04-linear-stories.md
+          - 11.5 非线性故事: game-design-fundamentals/chapter-11/11-05-nonlinear-stories.md
+          - 11.6 间隔尺度: game-design-fundamentals/chapter-11/11-06-granularity.md
+          - 11.7 推进情节的机制: game-design-fundamentals/chapter-11/11-07-mechanisms-for-advancing-plot.md
+          - 11.8 交互式故事的情感限制: game-design-fundamentals/chapter-11/11-08-emotional-limits.md
+          - 11.9 带脚本的对话和对话树: game-design-fundamentals/chapter-11/11-09-scripted-conversations-dialogue-trees.md
+          - 11.10 什么时候编写故事: game-design-fundamentals/chapter-11/11-10-when-to-write-story.md
+          - 11.11 其他需要考虑的事项: game-design-fundamentals/chapter-11/11-11-other-considerations.md
+          - 11.12 本章总结: game-design-fundamentals/chapter-11/11-12-summary.md
+          - 11.13 设计练习：训练: game-design-fundamentals/chapter-11/11-13-exercises-training.md
+          - 11.14 设计练习：习题: game-design-fundamentals/chapter-11/11-14-exercises-questions.md
