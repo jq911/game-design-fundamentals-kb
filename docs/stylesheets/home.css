@@ -76,6 +76,10 @@
   opacity: 1;
 }
 
+[data-md-color-scheme="slate"] .md-logo img {
+  filter: brightness(0) invert(1);
+}
+
 .md-header .md-logo,
 .md-header .md-logo:hover,
 .md-header .md-logo:focus,
