@@ -6,7 +6,7 @@ title: 11.14 设计练习：习题
 
 <div class="chapter-pager chapter-pager--top">
 <a class="chapter-pager__button chapter-pager__button--prev" href="../11-13-exercises-training"><span class="chapter-pager__label">上一页</span></a>
-<span class="chapter-pager__button chapter-pager__button--next chapter-pager__button--disabled"><span class="chapter-pager__label">下一页</span></span>
+<a class="chapter-pager__button chapter-pager__button--next" href="../../chapter-12"><span class="chapter-pager__label">下一页</span></a>
 </div>
 
 <!-- chapter-pager:end -->
@@ -67,7 +67,7 @@ title: 11.14 设计练习：习题
 
 <div class="chapter-pager chapter-pager--bottom">
 <a class="chapter-pager__button chapter-pager__button--prev" href="../11-13-exercises-training"><span class="chapter-pager__label">上一页</span></a>
-<span class="chapter-pager__button chapter-pager__button--next chapter-pager__button--disabled"><span class="chapter-pager__label">下一页</span></span>
+<a class="chapter-pager__button chapter-pager__button--next" href="../../chapter-12"><span class="chapter-pager__label">下一页</span></a>
 </div>
 
 <!-- chapter-pager:end -->

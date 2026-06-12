@@ -306,3 +306,20 @@ nav:
           - 11.12 本章总结: game-design-fundamentals/chapter-11/11-12-summary.md
           - 11.13 设计练习：训练: game-design-fundamentals/chapter-11/11-13-exercises-training.md
           - 11.14 设计练习：习题: game-design-fundamentals/chapter-11/11-14-exercises-questions.md
+      - 第 12 章 创造用户体验:
+          - 章节导览: game-design-fundamentals/chapter-12/index.md
+          - 12.1 什么是用户界面: game-design-fundamentals/chapter-12/12-01-what-is-user-interface.md
+          - 12.2 以玩家为中心的界面设计: game-design-fundamentals/chapter-12/12-02-player-centered-interface-design.md
+          - 12.3 设计过程: game-design-fundamentals/chapter-12/12-03-design-process.md
+          - 12.4 管理复杂度: game-design-fundamentals/chapter-12/12-04-managing-complexity.md
+          - 12.5 交互模型: game-design-fundamentals/chapter-12/12-05-interaction-models.md
+          - 12.6 视角: game-design-fundamentals/chapter-12/12-06-perspectives.md
+          - 12.7 视觉元素: game-design-fundamentals/chapter-12/12-07-visual-elements.md
+          - 12.8 音频元素: game-design-fundamentals/chapter-12/12-08-audio-elements.md
+          - 12.9 输入设备: game-design-fundamentals/chapter-12/12-09-input-devices.md
+          - 12.10 导航: game-design-fundamentals/chapter-12/12-10-navigation.md
+          - 12.11 辅助功能: game-design-fundamentals/chapter-12/12-11-accessibility.md
+          - 12.12 允许定制: game-design-fundamentals/chapter-12/12-12-allowing-customization.md
+          - 12.13 本章总结: game-design-fundamentals/chapter-12/12-13-summary.md
+          - 12.14 设计练习：训练: game-design-fundamentals/chapter-12/12-14-exercises-training.md
+          - 12.15 设计练习：习题: game-design-fundamentals/chapter-12/12-15-exercises-questions.md
