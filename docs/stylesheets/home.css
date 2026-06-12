@@ -83,7 +83,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, var(--book-primary), var(--book-accent));
+  background: linear-gradient(135deg, var(--book-secondary), var(--book-accent));
   mask: url("../assets/icons/logo.svg") center / contain no-repeat;
   -webkit-mask: url("../assets/icons/logo.svg") center / contain no-repeat;
 }
