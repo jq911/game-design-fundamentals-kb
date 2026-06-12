@@ -72,7 +72,26 @@
 }
 
 .md-logo img {
-  filter: brightness(0) invert(1);
+  filter: brightness(0) saturate(100%);
+  opacity: 1;
+}
+
+.md-header .md-logo,
+.md-header .md-logo:hover,
+.md-header .md-logo:focus,
+.md-header .md-logo:focus-visible,
+.md-header .md-source,
+.md-header .md-source:hover,
+.md-header .md-source:focus,
+.md-header .md-source:focus-visible,
+.md-header .md-source__icon,
+.md-header .md-source__icon svg {
+  color: var(--md-primary-bg-color);
+}
+
+.md-header .md-source__icon svg,
+.md-header .md-source__icon svg path {
+  fill: currentColor;
 }
 
 .md-header .md-source__repository {
