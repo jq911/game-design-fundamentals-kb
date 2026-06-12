@@ -1,3 +1,76 @@
+:root,
+[data-md-color-scheme="default"] {
+  --book-bg: #FCF8E8;
+  --book-primary: #D4E2D4;
+  --book-secondary: #ECB390;
+  --book-accent: #DF7861;
+  --book-text: #2f2a25;
+  --book-text-light: rgba(47, 42, 37, 0.68);
+  --book-text-lighter: rgba(47, 42, 37, 0.42);
+  --book-border: rgba(47, 42, 37, 0.16);
+  --book-card-bg: color-mix(in srgb, var(--book-bg) 90%, white);
+  --book-shadow: rgba(90, 60, 43, 0.12);
+  --book-shadow-strong: rgba(90, 60, 43, 0.20);
+
+  --md-default-bg-color: var(--book-bg);
+  --md-default-bg-color--light: color-mix(in srgb, var(--book-bg) 72%, transparent);
+  --md-default-bg-color--lighter: color-mix(in srgb, var(--book-bg) 32%, transparent);
+  --md-default-bg-color--lightest: color-mix(in srgb, var(--book-bg) 13%, transparent);
+  --md-default-fg-color: var(--book-text);
+  --md-default-fg-color--light: var(--book-text-light);
+  --md-default-fg-color--lighter: var(--book-text-lighter);
+  --md-default-fg-color--lightest: var(--book-border);
+  --md-primary-fg-color: var(--book-primary);
+  --md-primary-fg-color--light: color-mix(in srgb, var(--book-primary) 72%, white);
+  --md-primary-fg-color--dark: color-mix(in srgb, var(--book-primary) 78%, black);
+  --md-primary-bg-color: var(--book-text);
+  --md-primary-bg-color--light: var(--book-text-light);
+  --md-accent-fg-color: var(--book-accent);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--book-accent) 14%, transparent);
+  --md-accent-bg-color: #ffffff;
+  --md-accent-bg-color--light: rgba(255, 255, 255, 0.72);
+  --md-typeset-color: var(--book-text);
+  --md-typeset-a-color: var(--book-accent);
+  --md-code-bg-color: color-mix(in srgb, var(--book-bg) 72%, white);
+  --md-footer-bg-color: color-mix(in srgb, var(--book-primary) 70%, black);
+}
+
+[data-md-color-scheme="slate"] {
+  --book-bg: #222831;
+  --book-primary: #393E46;
+  --book-secondary: #00ADB5;
+  --book-accent: #EEEEEE;
+  --book-text: #EEEEEE;
+  --book-text-light: rgba(238, 238, 238, 0.68);
+  --book-text-lighter: rgba(238, 238, 238, 0.42);
+  --book-border: rgba(238, 238, 238, 0.16);
+  --book-card-bg: color-mix(in srgb, var(--book-bg) 72%, var(--book-primary));
+  --book-shadow: rgba(0, 0, 0, 0.30);
+  --book-shadow-strong: rgba(0, 0, 0, 0.46);
+
+  --md-default-bg-color: var(--book-bg);
+  --md-default-bg-color--light: color-mix(in srgb, var(--book-bg) 72%, transparent);
+  --md-default-bg-color--lighter: color-mix(in srgb, var(--book-bg) 32%, transparent);
+  --md-default-bg-color--lightest: color-mix(in srgb, var(--book-bg) 13%, transparent);
+  --md-default-fg-color: var(--book-text);
+  --md-default-fg-color--light: var(--book-text-light);
+  --md-default-fg-color--lighter: var(--book-text-lighter);
+  --md-default-fg-color--lightest: var(--book-border);
+  --md-primary-fg-color: var(--book-primary);
+  --md-primary-fg-color--light: color-mix(in srgb, var(--book-primary) 76%, white);
+  --md-primary-fg-color--dark: color-mix(in srgb, var(--book-primary) 82%, black);
+  --md-primary-bg-color: var(--book-accent);
+  --md-primary-bg-color--light: var(--book-text-light);
+  --md-accent-fg-color: var(--book-accent);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--book-accent) 18%, transparent);
+  --md-accent-bg-color: var(--book-bg);
+  --md-accent-bg-color--light: color-mix(in srgb, var(--book-bg) 72%, transparent);
+  --md-typeset-color: var(--book-text);
+  --md-typeset-a-color: var(--book-secondary);
+  --md-code-bg-color: color-mix(in srgb, var(--book-bg) 72%, black);
+  --md-footer-bg-color: color-mix(in srgb, var(--book-bg) 70%, black);
+}
+
 .md-logo img {
   filter: brightness(0) invert(1);
 }
@@ -28,7 +101,7 @@
 }
 
 body:has(.book-home) {
-  --md-accent-fg-color: var(--md-primary-fg-color);
+  --md-accent-fg-color: var(--book-accent);
 }
 
 body:has(.book-home) .md-main {
@@ -62,7 +135,7 @@ body:has(.book-home) .md-content {
 .book-home__brand img {
   width: 2rem;
   height: 2rem;
-  filter: invert(32%) sepia(93%) saturate(1713%) hue-rotate(359deg) brightness(95%) contrast(96%);
+  filter: none;
   opacity: 0.3;
 }
 
@@ -95,12 +168,12 @@ body:has(.book-home) .md-content {
   gap: 1rem;
   min-height: 176px;
   padding: 1rem;
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  border: 1px solid var(--book-border);
   border-radius: 24px;
   background:
-    radial-gradient(circle at 18% 12%, color-mix(in srgb, var(--md-accent-fg-color) 18%, transparent), transparent 34%),
-    linear-gradient(135deg, color-mix(in srgb, var(--md-default-bg-color) 92%, white), color-mix(in srgb, var(--md-default-bg-color) 82%, var(--md-primary-fg-color)));
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.10);
+    radial-gradient(circle at 18% 12%, color-mix(in srgb, var(--book-secondary) 24%, transparent), transparent 34%),
+    linear-gradient(135deg, var(--book-card-bg), color-mix(in srgb, var(--book-card-bg) 72%, var(--book-primary)));
+  box-shadow: 0 18px 44px var(--book-shadow);
   overflow: hidden;
   text-decoration: none !important;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
@@ -108,8 +181,8 @@ body:has(.book-home) .md-content {
 
 .book-card:hover {
   transform: translateY(-5px);
-  border-color: color-mix(in srgb, var(--md-accent-fg-color) 52%, transparent);
-  box-shadow: 0 26px 60px rgba(0, 0, 0, 0.16);
+  border-color: color-mix(in srgb, var(--book-accent) 62%, transparent);
+  box-shadow: 0 26px 60px var(--book-shadow-strong);
 }
 
 .book-card--disabled {
@@ -119,8 +192,8 @@ body:has(.book-home) .md-content {
 
 .book-card--disabled:hover {
   transform: none;
-  border-color: color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
-  box-shadow: 0 18px 44px rgba(0, 0, 0, 0.10);
+  border-color: var(--book-border);
+  box-shadow: 0 18px 44px var(--book-shadow);
 }
 
 .book-card__cover {
@@ -128,8 +201,8 @@ body:has(.book-home) .md-content {
   height: 144px;
   border-radius: 14px;
   object-fit: cover;
-  box-shadow: 0 14px 26px rgba(0, 0, 0, 0.28);
-  background: color-mix(in srgb, var(--md-primary-fg-color) 25%, var(--md-default-bg-color));
+  box-shadow: 0 14px 26px var(--book-shadow-strong);
+  background: color-mix(in srgb, var(--book-secondary) 25%, var(--book-bg));
 }
 
 .book-card__placeholder {
@@ -166,8 +239,8 @@ body:has(.book-home) .md-content {
   margin-bottom: 0.8rem;
   padding: 0.22rem 0.55rem;
   border-radius: 999px;
-  background: color-mix(in srgb, var(--md-accent-fg-color) 13%, transparent);
-  color: var(--md-accent-fg-color);
+  background: color-mix(in srgb, var(--book-secondary) 22%, transparent);
+  color: var(--book-accent);
   font-size: 0.68rem;
   font-weight: 800;
 }
@@ -214,19 +287,19 @@ html.book-locked .md-footer {
   place-items: center;
   padding: 1.2rem;
   background:
-    radial-gradient(circle at 24% 18%, rgba(255, 112, 67, 0.25), transparent 32rem),
-    radial-gradient(circle at 78% 76%, rgba(255, 171, 64, 0.2), transparent 28rem),
-    rgba(24, 19, 17, 0.74);
+    radial-gradient(circle at 24% 18%, color-mix(in srgb, var(--book-accent) 28%, transparent), transparent 32rem),
+    radial-gradient(circle at 78% 76%, color-mix(in srgb, var(--book-secondary) 28%, transparent), transparent 28rem),
+    color-mix(in srgb, var(--book-bg) 78%, rgba(0, 0, 0, 0.74));
   backdrop-filter: blur(16px);
 }
 
 .book-gate__panel {
   width: min(100%, 25rem);
   padding: 1.35rem;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid color-mix(in srgb, var(--book-accent) 22%, transparent);
   border-radius: 1.1rem;
-  background: color-mix(in srgb, var(--md-default-bg-color) 94%, transparent);
-  box-shadow: 0 1.4rem 4rem rgba(0, 0, 0, 0.28);
+  background: color-mix(in srgb, var(--book-bg) 94%, transparent);
+  box-shadow: 0 1.4rem 4rem var(--book-shadow-strong);
 }
 
 .book-gate__eyebrow {
@@ -265,7 +338,7 @@ html.book-locked .md-footer {
   padding: 0.7rem 0.8rem;
   border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 22%, transparent);
   border-radius: 0.65rem;
-  background: var(--md-default-bg-color);
+  background: var(--book-card-bg);
   color: var(--md-typeset-color);
   font: inherit;
   font-size: 0.85rem;
@@ -282,8 +355,8 @@ html.book-locked .md-footer {
   padding: 0.72rem 0.9rem;
   border: 0;
   border-radius: 999px;
-  background: var(--md-primary-fg-color);
-  color: #fff;
+  background: var(--book-primary);
+  color: var(--md-primary-bg-color);
   cursor: pointer;
   font-size: 0.75rem;
   font-weight: 800;
@@ -291,7 +364,8 @@ html.book-locked .md-footer {
 }
 
 .book-gate button:hover {
-  background: var(--md-accent-fg-color);
+  background: var(--book-accent);
+  color: var(--book-bg);
 }
 
 .book-gate__error {
@@ -307,10 +381,10 @@ html.book-locked .md-footer {
   max-width: 34rem;
   margin: 1.4rem auto;
   padding: 0.75rem;
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 12%, transparent);
+  border: 1px solid var(--book-border);
   border-radius: 0.7rem;
   background: #fff;
-  box-shadow: 0 0.3rem 0.9rem rgba(0, 0, 0, 0.055);
+  box-shadow: 0 0.3rem 0.9rem var(--book-shadow);
   text-align: center;
 }
 
@@ -362,28 +436,28 @@ html.book-locked .md-footer {
   gap: 0.175rem;
   padding: 0.375rem 0.4125rem;
   white-space: nowrap;
-  border: 1px solid color-mix(in srgb, var(--md-default-fg-color) 18%, transparent);
+  border: 1px solid color-mix(in srgb, var(--book-secondary) 38%, var(--book-border));
   border-radius: 0.375rem;
-  background: #fff;
-  box-shadow: 0 0.225rem 0.6rem rgba(0, 0, 0, 0.055);
+  background: var(--book-card-bg);
+  box-shadow: 0 0.225rem 0.6rem var(--book-shadow);
   text-decoration: none;
   transition: transform 160ms ease, border-color 160ms ease, box-shadow 160ms ease;
 }
 
 .chapter-pager__button:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: 0 0.325rem 0.8rem rgba(0, 0, 0, 0.09);
+  border-color: var(--book-accent);
+  box-shadow: 0 0.325rem 0.8rem var(--book-shadow-strong);
   transform: translateY(-1px);
 }
 
 [data-md-color-scheme="slate"] .chapter-pager__button {
-  border-color: rgba(129, 212, 250, 0.28);
-  background: #1f242b;
+  border-color: color-mix(in srgb, var(--book-secondary) 34%, transparent);
+  background: var(--book-primary);
 }
 
 [data-md-color-scheme="slate"] .chapter-pager__button:hover {
-  border-color: var(--md-accent-fg-color);
-  background: #252c35;
+  border-color: var(--book-secondary);
+  background: color-mix(in srgb, var(--book-primary) 78%, var(--book-secondary));
 }
 
 .chapter-pager__button--prev {
@@ -421,8 +495,8 @@ html.book-locked .md-footer {
 }
 
 .chapter-pager__button--disabled:hover {
-  border-color: color-mix(in srgb, var(--md-accent-fg-color) 28%, transparent);
-  box-shadow: 0 0.225rem 0.6rem rgba(0, 0, 0, 0.055);
+  border-color: color-mix(in srgb, var(--book-secondary) 28%, transparent);
+  box-shadow: 0 0.225rem 0.6rem var(--book-shadow);
   transform: none;
 }
 

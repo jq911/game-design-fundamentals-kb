@@ -22,14 +22,14 @@ theme:
     - content.code.copy
   palette:
     - scheme: default
-      primary: deep orange
-      accent: orange
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-night
         name: 切换到深色模式
     - scheme: slate
-      primary: black
-      accent: light blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
         name: 切换到浅色模式
