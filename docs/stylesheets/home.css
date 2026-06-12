@@ -163,11 +163,19 @@ body:has(.book-home) .md-content {
   margin-bottom: 0.5rem;
 }
 
-.book-home__brand img {
+.book-home__brand::before {
+  content: "";
+  flex: 0 0 2rem;
   width: 2rem;
   height: 2rem;
-  filter: none;
-  opacity: 0.3;
+  background: linear-gradient(135deg, var(--book-secondary), var(--book-accent));
+  mask: url("../assets/icons/logo.svg") center / contain no-repeat;
+  -webkit-mask: url("../assets/icons/logo.svg") center / contain no-repeat;
+  opacity: 0.92;
+}
+
+.book-home__brand img {
+  display: none;
 }
 
 .book-home h1 {
